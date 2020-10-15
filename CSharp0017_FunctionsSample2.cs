@@ -24,9 +24,9 @@ namespace CSharp0017_FunctionsSample2
                 x = int.Parse(Console.ReadLine());
                 if (x > 0)
                     if(Convert.ToBoolean(isPentagonal(x)))
-                        Console.WriteLine(x + " is a triangular number");
+                        Console.WriteLine(x + " is a pentagonal number");
                     else
-                        Console.WriteLine(x + " is NOT a triangular number");
+                        Console.WriteLine(x + " is NOT a pentagonal number");
             } while (x > 0);
         }
     }

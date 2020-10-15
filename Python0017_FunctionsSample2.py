@@ -1,6 +1,6 @@
 def isPentagonal(number):
 
-    i = 1
+    i = 0
     while number>0:
         number -= 1+3*i
         i += 1
