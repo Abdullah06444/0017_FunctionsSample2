@@ -2,7 +2,7 @@ def isPentagonal(number):
 
     i = 0
     while number>0:
-        number -= 1+3*i
+        number -= 1 + 3 * i
         i += 1
 
     if number == 0:
